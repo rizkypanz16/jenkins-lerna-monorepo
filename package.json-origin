@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  #"workspaces": [
+  #  "packages/*"
+  #],
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^7.1.4"
+  },
+  "scripts": {
+    "start": "concurrently \"cd frontend && npm start\" \"cd backend && node server.js\""
+  }
+
+}
