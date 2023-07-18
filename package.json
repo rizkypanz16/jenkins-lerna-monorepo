@@ -8,7 +8,7 @@
   "scripts": {
     "start:fe": "lerna run --scope frontend --stream start:prod",
     "start:be": "lerna run --scope backend --stream start:prod",
-    "start:both": "lerna run --parallel start"
+    "start:both": "lerna run --parallel start:prod"
   }
 
 }
