@@ -14,10 +14,11 @@ npm run run:fe
 ```
 npm run run:both
 ```
-
+****
 ### initialize lerna
 
 ```
+npm install -g lerna serve pm2
 mkdir -p lerna-monorepo-example && cd lerna-monorepo-example
 lerna init
 ```
