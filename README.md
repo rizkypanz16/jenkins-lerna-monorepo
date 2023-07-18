@@ -2,17 +2,17 @@
 
 1. **start backend service**
 ```
-npm run run:be
+npm run start:be
 ```
 
 2. **start frontend service**
 ```
-npm run run:fe
+npm run start:fe
 ```
 
 3. **start both service**
 ```
-npm run run:both
+npm run start:both
 ```
 ****
 ### initialize lerna

@@ -6,9 +6,9 @@
     "lerna": "^7.1.4"
   },
   "scripts": {
-    "run:fe": "lerna run --scope frontend --stream start",
-    "run:be": "lerna run --scope backend --stream start",
-    "run:both": "lerna run --parallel start"
+    "start:fe": "lerna run --scope frontend --stream start:prod",
+    "start:be": "lerna run --scope backend --stream start:prod",
+    "start:both": "lerna run --parallel start"
   }
 
 }
