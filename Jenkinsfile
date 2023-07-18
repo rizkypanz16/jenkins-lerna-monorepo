@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools {nodejs "node"}
     environment {
-        GIT_REPO_URL = "https://github.com/rizkypanz16/lerna-monorepo-example.git"
+        GIT_REPO_URL = "https://github.com/rizkypanz16/jenkins-lerna-monorepo.git"
         GIT_BRANCH = "main"
     }
     
